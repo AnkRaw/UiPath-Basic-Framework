@@ -1,0 +1,16 @@
+{	
+
+	"paths" : {
+        "Exception Sheet" : "Utils\\Excels\\Exceptions.xlsx",
+        "Input File" : "Utils\\Excels\\Input_File.xlsx"
+    },
+    
+    "Sheets" : {
+        "Main" : "Main"
+    },
+
+    "test" : {
+        "" : ""
+    }
+	
+}
