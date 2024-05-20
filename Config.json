@@ -1,13 +1,17 @@
-{	
+﻿{	
 
 	"paths" : {
         "Exception Sheet" : "Utils\\Excels\\Exceptions.xlsx",
-        "Input File" : "Utils\\Excels\\Input_File.xlsx"
+        "Input File" : "Utils\\Excels\\Input File.xlsx"
     },
     
-    "Sheets" : {
+    "sheets" : {
         "Main" : "Main"
     },
+	
+	"dependency" : {
+		"services" : ["msedge"]
+	},
 
     "test" : {
         "" : ""
