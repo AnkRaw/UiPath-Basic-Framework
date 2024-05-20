@@ -57,7 +57,7 @@ This is the main workflow where execution begins and includes several key parts:
 - **Setup Incomplete**
   - Logs if the setup is incomplete.
     
- ![setup_incomplete](https://github.com/AnkRaw/UiPath-Basic-Framework/assets/45765236/d98a2ac5-bb55-491b-b2b6-38bdd26eb84b)
+   ![setup_incomplete](https://github.com/AnkRaw/UiPath-Basic-Framework/assets/45765236/d98a2ac5-bb55-491b-b2b6-38bdd26eb84b)
 
     
 - **Tear Down**
