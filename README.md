@@ -44,6 +44,9 @@ This is the main workflow where execution begins and includes several key parts:
 - **Setup Module**: Sets up prerequisites for the process.
   - **Reading Configuration File**: Reads settings from Config.json to make the robot dynamic and application-independent.
   - **Setup inside Try Catch Block**: Ensures robust setup and handles exceptions.
+ 
+  ![setup](https://github.com/AnkRaw/UiPath-Basic-Framework/assets/45765236/45bbcf73-97d4-4d06-b8fd-66d2a5de2a00)
+
 
 - **Processing**
   - Process data iteratively from an Excel file. Handles exceptions for each row using try/catch blocks and continues with the next record.
@@ -53,10 +56,10 @@ This is the main workflow where execution begins and includes several key parts:
 
 - **Setup Incomplete**
   - Logs if the setup is incomplete.
- 
     
-![setup](https://github.com/AnkRaw/UiPath-Basic-Framework/assets/45765236/3de3b662-0c6c-4513-8765-3a6a0ac21f63)
+ ![setup_incomplete](https://github.com/AnkRaw/UiPath-Basic-Framework/assets/45765236/d98a2ac5-bb55-491b-b2b6-38bdd26eb84b)
 
+    
 - **Tear Down**
   - Closes all dependencies.
  
