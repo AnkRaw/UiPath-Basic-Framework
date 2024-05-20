@@ -47,21 +47,28 @@ This is the main workflow where execution begins and includes several key parts:
 
 - **Processing**
   - Process data iteratively from an Excel file. Handles exceptions for each row using try/catch blocks and continues with the next record.
+ 
     ![processing](https://github.com/AnkRaw/UiPath-Basic-Framework/assets/45765236/97f911c1-7bcd-4a62-91aa-cd04d52f4be9)
 
 
 - **Setup Incomplete**
   - Logs if the setup is incomplete.
+ 
+    
 ![setup](https://github.com/AnkRaw/UiPath-Basic-Framework/assets/45765236/3de3b662-0c6c-4513-8765-3a6a0ac21f63)
 
 - **Tear Down**
   - Closes all dependencies.
+ 
+    
     ![tear_down](https://github.com/AnkRaw/UiPath-Basic-Framework/assets/45765236/e40d8a6e-f8eb-4848-9b14-bf2534eeefcf)
 
 
 ### Adding_Exception.xaml
 
 Handles all exceptions by logging related information, making error tracking and resolution easier.
+
+
 ![exceptions_workflow](https://github.com/AnkRaw/UiPath-Basic-Framework/assets/45765236/f52c247a-1d3d-4726-91ee-a1d4ddc1d33a)
 
 
